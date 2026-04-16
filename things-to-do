@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Things To Do Near Santaquin | Stay Santaquin</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #f7f5f2;
+  color: #2c2c2c;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.hero {
+  background: #e9f1f4;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.section {
+  margin-top: 40px;
+}
+
+.section h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.card h4 {
+  margin-top: 0;
+}
+
+.card a {
+  color: #0077aa;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 60px;
+  padding: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Stay Santaquin</h1>
+</header>
+
+<div class="hero">
+  <h2>Family Fun Near Santaquin</h2>
+  <p>Explore the best indoor and outdoor activities just minutes from your stay.</p>
+</div>
+
+<div class="container">
+
+  <div class="section">
+    <h3>Indoor Family Fun</h3>
+    <div class="grid">
+
+      <div class="card">
+        <h4>Coin Crazy Family Fun Center</h4>
+        <p>Arcade games, laser tag, and VR experiences.</p>
+        <p>📍 1024 Expressway Ln, Spanish Fork, UT</p>
+        <a href="https://www.coincrazy.com" target="_blank">Visit Website</a>
+      </div>
+
+      <div class="card">
+        <h4>KidsTopia Adventure</h4>
+        <p>Indoor playground perfect for younger kids.</p>
+        <p>📍 859 E 1950 N, Spanish Fork, UT</p>
+        <a href="https://www.kidstopiaadventure.com" target="_blank">Visit Website</a>
+      </div>
+
+      <div class="card">
+        <h4>Clyde Recreation Center</h4>
+        <p>Indoor pool, courts, and fitness areas.</p>
+        <p>📍 717 S 1200 W, Springville, UT</p>
+        <a href="https://www.springville.org/clyde-recreation-center" target="_blank">Visit Website</a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>Outdoor Adventures</h3>
+    <div class="grid">
+
+      <div class="card">
+        <h4>Santaquin Canyon</h4>
+        <p>Scenic drives, picnics, and hiking.</p>
+        <p>📍 Santaquin Canyon Rd</p>
+        <a href="https://www.santaquin.gov" target="_blank">Learn More</a>
+      </div>
+
+      <div class="card">
+        <h4>Grotto Falls Trail</h4>
+        <p>Short family-friendly hike to a waterfall.</p>
+        <p>📍 Santaquin Canyon</p>
+        <a href="https://www.alltrails.com/trail/us/utah/grotto-falls-trail" target="_blank">View Trail</a>
+      </div>
+
+      <div class="card">
+        <h4>Prospector View Trailhead</h4>
+        <p>Easy trails and river access.</p>
+        <p>📍 Santaquin Area</p>
+        <a href="https://www.santaquin.gov/comservices/page/prospector-view-park-trailhead" target="_blank">Details</a>
+      </div>
+
+      <div class="card">
+        <h4>Orchard Cove Park</h4>
+        <p>Playground and picnic areas.</p>
+        <p>📍 Santaquin, UT</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>Local Favorites</h3>
+    <div class="grid">
+
+      <div class="card">
+        <h4>Gordos Fun Farm</h4>
+        <p>Petting zoo and seasonal activities.</p>
+        <p>📍 5746 S 3200 W, Spanish Fork, UT</p>
+        <a href="https://www.facebook.com/gordosfunfarm" target="_blank">Visit Page</a>
+      </div>
+
+      <div class="card">
+        <h4>Rowley’s Red Barn</h4>
+        <p>Ice cream, fruit, and local treats.</p>
+        <p>📍 901 S 300 W, Santaquin, UT</p>
+        <a href="https://www.rowleysredbarn.com" target="_blank">Visit Website</a>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  © Stay Santaquin | Enjoy your stay!
+</footer>
+
+</body>
+</html>
